@@ -1,0 +1,10 @@
+Course: Git  - March 6, 2023 Monday 
+Duration: 2 Hrs
+
+Git commands in "DataEng Notes - NuqtaSol GDrive" folder
+
+1) Create an empty Git repository or reinitialize an existing one
+	$ git init
+	
+2) git config
+	could not understand this properly
