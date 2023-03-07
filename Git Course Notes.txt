@@ -6,21 +6,34 @@ Git commands in "DataEng Notes - NuqtaSol GDrive" folder
 1) Create an empty Git repository or reinitialize an existing one
 	$ git init
 	
-	
 	$git status
+
+
+2) Adding files to stage 
+	$ git add <file-name>
 	
-2) git config
+	To add all file 
+		$git add .
+	
+	
+3) git config
 	$ git config user.email "harisazfar35@gmail.com"
 	$ git config user.name "haris-saeed"
 
-3) Add remote repo (link you local repo to the one on cloud)
-	$ git remote add origin <repo clloning URL>
+
+4) git commit
+	$ git commit -m "a msg for your commit"
+
+
+5) Add remote repo (link you local repo to the one on cloud)
+	$ git remote add origin <repo cloning URL>
 	
 	
 	To Verify if we have push & pull access on a particular cloud-repo
 		$git remote -v
 
-4) Adding files to stage 
-	$ git add .
-	
+
+6) To push your staged files to remote repository 
+	$git push origin -u master
+
 	$git status
