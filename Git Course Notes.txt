@@ -25,13 +25,18 @@ Types of Version Control Systems:
 	
 	
 ***************************Practical***************************	
+
+Must Read: https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository
+
+
+
+
+
 Course: Git  - March 6, 2023 Monday 
 Duration: 2 Hrs
 
 Git commands in "DataEng Notes - NuqtaSol GDrive" folder
 
-
-Must Read https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository
 
 1) Create an empty Git repository or reinitialize an existing one
 	$ git init
@@ -75,6 +80,20 @@ Must Read https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Rep
 
 
 	$git status
+	$git status -s
+	
+	
+	=>To see what you’ve changed but not yet staged, type git diff with no other arguments
+	
+	=> If you want to see what you’ve staged that will go into your next commit, you can use git diff --staged. This command compares your staged changes to your last commit
+	
+	
+7) git rm
+		$git rm <filename>
+		
+		$git rm --cached <filenmae>
+		
+		cached & staged are synonym
 	
 	
 7) Branching
