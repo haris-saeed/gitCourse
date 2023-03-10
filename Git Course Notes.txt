@@ -96,7 +96,7 @@ Git commands in "DataEng Notes - NuqtaSol GDrive" folder
 		$git rm --cached <filenmae>
 		
 		
-		
+		//changes made for signup-styles
 	
 8) Moving Files (Renaming)
 	If you want to rename a file in Git, you can run something like:
