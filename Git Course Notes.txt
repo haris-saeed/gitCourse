@@ -59,8 +59,9 @@ Git commands in "DataEng Notes - NuqtaSol GDrive" folder
 4) git commit
 	$ git commit -m "a msg for your commit"
 	
-	to overcome running adding & commiting command again & again do this:
+	to overcome running add & commit command separately again & again do this:
 		$ git commit -am "comit msg"   => this would add as well as commit
+		
 
 
 5) Add remote repo (link you local repo to the one on cloud)
