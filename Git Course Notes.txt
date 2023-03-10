@@ -1,3 +1,27 @@
+*******************Theory******************
+(https://www.geeksforgeeks.org/version-control-systems/)
+What is a “version control system”? 
+Version control systems are a category of software tools that helps in recording changes made to files by keeping a track of modifications done in the code. 
+
+Types of Version Control Systems: 
+
+    Local Version Control Systems
+    Centralized Version Control Systems
+    Distributed Version Control Systems
+	
+	1. Local Version Control Systems: It is one of the simplest forms and has a database that kept all the changes to files under revision control. 
+
+	2.Centralized Version Control Systems: Centralized version control systems contain just one repository globally and every user need to commit for reflecting one’s changes in the repository. It is possible for others to see your changes by updating. 
+
+	3. Distributed Version Control Systems: Distributed version control systems contain multiple repositories. Each user has their own repository and working copy.
+	
+	Distributed Version control system means every collaborator(any developer working on a team project)has a local repository of the project in his/her local machine unlike central where team members should have an internet connection to every time update their work to the main central repository. 
+
+	So, by distributed we mean: the project is distributed. A repository is an area that keeps all your project files, images, etc. In terms of Github: different versions of projects correspond to commits.
+	
+	
+	
+**************Practical**************	
 Course: Git  - March 6, 2023 Monday 
 Duration: 2 Hrs
 
@@ -30,6 +54,7 @@ Git commands in "DataEng Notes - NuqtaSol GDrive" folder
 
 5) Add remote repo (link you local repo to the one on cloud)
 	$ git remote add origin <repo cloning URL>
+	git remote add origin https://github.com/haris-saeed/test2.git
 	
 	
 	To Verify if we have push & pull access on a particular cloud-repo
@@ -39,6 +64,7 @@ Git commands in "DataEng Notes - NuqtaSol GDrive" folder
 6) To push your staged files to remote repository 
 	$git push origin -u master					Q: what does "-u" flag does???
 	
+	Choose name of branch while pushing
 	$git push origin <branch-name>            
 
 
@@ -57,9 +83,16 @@ Git commands in "DataEng Notes - NuqtaSol GDrive" folder
 	to directly create & swicth to branch
 		$ git checkout -b <branch-name-to-create>
 		
+	To delete a branch:
+		$ git branch -D <branch-name>
 		
+8) git diff
 		
-		
+	
+9) Pull Request via Github
+ we can merge branches within a repository by creating pull request in Github - check for cconflicts if no conflict then they could be merged & "pull request" will closed. After than we can delete that branch which we just merged.
+ 
+ 
 ===================================================================
 		Copied from git console
 
