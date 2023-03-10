@@ -89,8 +89,8 @@ Git commands in "DataEng Notes - NuqtaSol GDrive" folder
 8) git diff
 		
 	
-9) Pull Request via Github
- we can merge branches within a repository by creating pull request in Github - check for cconflicts if no conflict then they could be merged & "pull request" will closed. After than we can delete that branch which we just merged.
+9) Pull Request via Github  (Merging branch)
+ we can merge branches within a repository by creating pull request in Github - check for cconflicts if no conflict then they could be merged & "pull request" will closed. After that we can delete that branch which we just merged from remote as well as local repo.
  
  
 ===================================================================
