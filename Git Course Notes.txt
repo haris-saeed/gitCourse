@@ -90,11 +90,14 @@ Git commands in "DataEng Notes - NuqtaSol GDrive" folder
 	
 7) git rm
 		$git rm <filename>
-		
+	
+	To keep the file in your working tree but remove it from your staging area. This is particularly useful if you forgot to add something to your .gitignore file and accidentally staged it
 		$git rm --cached <filenmae>
 		
-		cached & staged are synonym
 	
+8) Moving Files (Renaming)
+	If you want to rename a file in Git, you can run something like:
+		$git mv file_from file_to
 	
 7) Branching
 	To create a branch:
