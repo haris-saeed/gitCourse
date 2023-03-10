@@ -80,6 +80,14 @@ Git commands in "DataEng Notes - NuqtaSol GDrive" folder
 	$git push origin <branch-name>            
 
 
+	To push the current branch and set the remote as upstream:
+		$git push --set-upstream origin feature
+	
+	To unset upstream branch:
+		$git branch --unset-upstream
+
+
+
 	$git status
 	$git status -s
 	
