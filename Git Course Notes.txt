@@ -1,5 +1,8 @@
+
 *******************Theory******************
+
 (https://www.geeksforgeeks.org/version-control-systems/)
+
 What is a “version control system”? 
 Version control systems are a category of software tools that helps in recording changes made to files by keeping a track of modifications done in the code. 
 
@@ -21,11 +24,14 @@ Types of Version Control Systems:
 	
 	
 	
-**************Practical**************	
+***************************Practical***************************	
 Course: Git  - March 6, 2023 Monday 
 Duration: 2 Hrs
 
 Git commands in "DataEng Notes - NuqtaSol GDrive" folder
+
+
+Must Read https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository
 
 1) Create an empty Git repository or reinitialize an existing one
 	$ git init
@@ -86,7 +92,8 @@ Git commands in "DataEng Notes - NuqtaSol GDrive" folder
 	To delete a branch:
 		$ git branch -D <branch-name>
 		
-8) git diff
+8) git diff 
+	-> to see the actual difference between 2 files
 		
 	
 9) Pull Request via Github  (Merging branch)
